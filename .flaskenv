@@ -1,2 +1,2 @@
-FLASK_APP=storyAI.py
+FLASK_APP=odyssey.py
 FLASK_ENV=development

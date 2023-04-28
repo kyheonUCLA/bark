@@ -12,20 +12,12 @@
             <div class="flex flex-nowrap lg:ml-40 md:ml-20 ml-10 ">
     
             {% for i in range(images|length) %} 
-                {{ CardHorizontilScroll(image=images[i], card_title=titles[i])}}
+                {{ CardHorizontilScroll(image=images[i], card_title=titles[i]) }}
+                
             {% endfor %}
     
         </div>
     </div>      
 </main>
 
-<style>
-    .hide-scroll-bar {
-        -ms-overflow-style: none;
-        scrollbar-width: none;
-    }
-    .hide-scroll-bar::-webkit-scrollbar {
-        display: none;
-    }
-</style>
 {% endblock %}
